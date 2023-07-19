@@ -132,13 +132,13 @@ do_action( 'neve_after_primary_start' );
 
 echo "<header>";
 echo "<div class=header>";
-echo "<a href=http://localhost/Planty><img class=logo src=http://localhost/Planty/wp-content/uploads/2023/07/Logo.png alt=logo></a>";
+echo "<a href=http://localhost/Planty_2><img class=logo src=http://localhost/Planty_2/wp-content/uploads/2023/07/Logo.png alt=logo></a>";
 echo "<nav class=navigation>";
-	echo "<a href=http://localhost/Planty/nous-rencontrer class=navig>Nous rencontrer</a>";
+	echo "<a href=http://localhost/Planty_2/nous-rencontrer class=navig>Nous rencontrer</a>";
 	if(is_user_logged_in()) : 
-	echo "<a href=http://localhost/Planty/wp-admin/index.php class=navig>Admin</a>";
+	echo "<a href=http://localhost/Planty_2/wp-admin/index.php class=navig>Admin</a>";
 	endif; 
-	echo "<a href=http://localhost/Planty/commander class=commander>Commander</a>";
+	echo "<a href=http://localhost/Planty_2/commander class=commander>Commander</a>";
 echo "</nav>";
 echo "</div>";
 echo "</header>";
